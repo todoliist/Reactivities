@@ -31,6 +31,7 @@ namespace API.Controllers
         [HttpPut("{id}")]
         public async Task<IActionResult> EditActivity(Guid id, Activity activity)
         {
+            // activity in request body doesnt have id, need assign id in url to it
             activity.Id = id;
             return Ok(await Mediator.Send(new Edit.Command { Activity = activity }));
         }
