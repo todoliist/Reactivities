@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { store, StoreContext } from './app/stores/store'
 import './app/layout/styles.css';
+import 'react-calendar/dist/Calendar.css'
 import App from './app/layout/App';
 import reportWebVitals from './reportWebVitals';
 import 'semantic-ui-css/semantic.min.css';
