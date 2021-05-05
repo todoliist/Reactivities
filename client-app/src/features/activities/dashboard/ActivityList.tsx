@@ -1,13 +1,12 @@
 import { observer } from 'mobx-react-lite';
-import { useStore } from '../../../app/stores/store';
+import React, { Fragment } from 'react';
 import { Header } from 'semantic-ui-react';
+import { useStore } from '../../../app/stores/store';
 import ActivityListItem from './ActivityListItem';
-import { Fragment } from 'react';
 
 export default observer(function ActivityList() {
     const { activityStore } = useStore();
     const { groupedActivities } = activityStore;
-
 
     return (
         <>
@@ -24,5 +23,4 @@ export default observer(function ActivityList() {
         </>
 
     )
-}
-)
+})
