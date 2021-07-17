@@ -1,4 +1,5 @@
 # Project Introduction
+
 Building an app using ASP.NET Core, React (with Typescript) and Mobx, details includes:
 1. Create an clean Architecture and the CQRS + Mediator pattern
 2. Setting up and configuring ASP.NET Core identity for authentication
@@ -10,7 +11,7 @@ Building an app using ASP.NET Core, React (with Typescript) and Mobx, details in
 8. Paging, Sorting and Filtering
 9. Publishing the application to IIS
 
-# test user:bob@test.com
+# test user: bob@test.com
 # password: Pa$$w0rd
 
 
