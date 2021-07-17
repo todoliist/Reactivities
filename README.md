@@ -13,7 +13,5 @@ Building an app using ASP.NET Core, React (with Typescript) and Mobx, details in
 
 # test user: bob@test.com
 # password: Pa$$w0rd
-
-
-
+deployed to: https://activitiesincalgary.herokuapp.com/
 
